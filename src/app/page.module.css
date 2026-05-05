@@ -29,6 +29,7 @@
 
 .main {
   display: flex;
+  font-family: var(--font-geist-mono);
   /* flex-direction: column;
   gap: 32px;
   grid-row-start: 2; */
