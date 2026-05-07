@@ -1,6 +1,7 @@
 {
   "name": "my-gym",
   "version": "0.1.0",
+  "author": "Naveensingh",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",

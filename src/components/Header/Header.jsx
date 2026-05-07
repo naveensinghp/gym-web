@@ -12,7 +12,7 @@ function Header() {
         <Menu>
           <MenuItem href="/">Home</MenuItem>
           <MenuItem href="/about">About</MenuItem>
-          <MenuItem href="/services">Services</MenuItem>
+          <MenuItem href="/services">Workout Split</MenuItem>
           <MenuItem href="/contact">Contact</MenuItem>
         </Menu>
 
