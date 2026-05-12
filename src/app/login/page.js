@@ -46,24 +46,26 @@ const LoginBox = styled.div`
   display: flex;
   flex-direction: column;
   gap: 20px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  /* box-shadow: 0 10px 25px rgba(0,0,0,0.08); */
 `;
 
 const Title = styled.h1`
   text-align: center;
   font-size: 32px;
+  font-weight: 500;
   color: #222;
 `;
 
 const Input = styled.input`
-font-family: var(--font-geist-mono);
+  font-family: var(--font-geist-mono);
   width: 100%;
   padding: 14px;
   border: 1px solid #dcdcdc;
   border-radius: 10px;
   font-size: 16px;
   outline: none;
-
+  background: white;
+  color: black;
   &:focus {
     border-color: #4f46e5;
   }
