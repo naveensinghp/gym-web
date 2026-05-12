@@ -7,7 +7,6 @@ function Header() {
   return (
     <Wrapper>
       <LogoSection />
-
       <RightSection>
         <Menu>
           <MenuItem href="/">Home</MenuItem>
