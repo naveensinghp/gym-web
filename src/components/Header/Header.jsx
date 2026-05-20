@@ -31,8 +31,9 @@ const Wrapper = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 16px 32px;
-  background: #ffffff;
+  background: var(--foreground);
   border-bottom: 1px solid #eee;
+  color: #fff;
 `;
 
 const RightSection = styled.div`
@@ -49,7 +50,7 @@ const Menu = styled.nav`
 
 const MenuItem = styled.a`
   text-decoration: none;
-  color: #333;
+  color: #fff;
   font-size: 16px;
   font-weight: 500;
 
