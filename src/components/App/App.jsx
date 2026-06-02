@@ -7,7 +7,7 @@ function App() {
   return(
     <>
        <Wrapper>
-        <h2>Best Gym Place</h2>
+        <h2>Build Daily Habits for better health</h2>
        </Wrapper>
     </>
   );
