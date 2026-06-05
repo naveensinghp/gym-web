@@ -2,9 +2,12 @@
 
 import React from 'react';
 import styled from 'styled-components';
+import Header from "@/components/Header";
+
 
 export default function Login() {
   return (
+    <>    
     <Wrapper>
       <LoginBox>
         <Title>Login</Title>
@@ -24,6 +27,7 @@ export default function Login() {
         </LoginButton>
       </LoginBox>
     </Wrapper>
+    </>
   );
 }
 
@@ -84,7 +88,7 @@ const LoginButton = styled.button`
   cursor: pointer;
   transition: 0.2s;
 
-  &:hover {
+  /* &:hover {
     background: #4338ca;
-  }
+  } */
 `;
