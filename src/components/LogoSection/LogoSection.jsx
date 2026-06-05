@@ -3,14 +3,21 @@ import styled from 'styled-components';
 
 function LogoSection() {
   return (
+    <LinkWrapper href="/">
     <Wrapper>
-      <Logo src="logo.png" alt="TrackLift logo" />
+      <Logo src="logo.png" alt="TrackLift logo"  />
       <Title>TrackLift</Title>
     </Wrapper>
+    </LinkWrapper>
   );
 }
 
 export default LogoSection;
+
+
+const LinkWrapper = styled.a`
+  text-decoration: none;;
+`
 
 const Wrapper = styled.div`
   display: flex;
