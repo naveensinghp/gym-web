@@ -55,7 +55,7 @@ const MenuItem = styled.a`
   font-weight: 500;
 
   &:hover {
-    color: #0070f3;
+    color: var(--primary);
   }
 `;
 
@@ -80,14 +80,14 @@ const LoginButton = styled.a`
 
 const SignupButton = styled.a`
   padding: 8px 16px;
-  background: #0070f3;
+  background: var(--primary);
   color: white;
   border-radius: 6px;
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
 
-  &:hover {
+  /* &:hover {
     background: #0059c1;
-  }
+  } */
 `;
