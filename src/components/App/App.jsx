@@ -2,12 +2,13 @@
 import React from 'react';
 import Header from '../Header';
 import styled from 'styled-components';
+import HomePageContent from '../HomePageContent';
 
 function App() {
   return(
     <>
        <Wrapper>
-        <h2>Build Daily Habits for better health</h2>
+          <HomePageContent />
        </Wrapper>
     </>
   );
@@ -17,4 +18,8 @@ export default App;
 
 const Wrapper = styled.div`
   padding-left: 25%;
+ 
+   width: 100%;
+  background: yellow;
+  color: white;
 `
