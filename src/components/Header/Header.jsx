@@ -7,6 +7,7 @@ function Header() {
   return (
     <Wrapper>
       <LogoSection />
+
       <RightSection>
         <Menu>
           <MenuItem href="/">Home</MenuItem>
@@ -26,10 +27,15 @@ function Header() {
 
 export default Header;
 
-const Wrapper = styled.div`
+const Wrapper = styled.header`
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
+
   padding: 16px 32px;
   background: var(--foreground);
   border-bottom: 1px solid #eee;
@@ -43,7 +49,6 @@ const RightSection = styled.div`
 `;
 
 const Menu = styled.nav`
-  font-family: var(--font-geist-mono);
   display: flex;
   gap: 24px;
 `;
@@ -70,12 +75,6 @@ const LoginButton = styled.a`
   border-radius: 6px;
   text-decoration: none;
   color: #0070f3;
-  font-size: 14px;
-  font-weight: 500;
-
-  &:hover {
-    background: #f0f8ff;
-  }
 `;
 
 const SignupButton = styled.a`
@@ -84,10 +83,4 @@ const SignupButton = styled.a`
   color: white;
   border-radius: 6px;
   text-decoration: none;
-  font-size: 14px;
-  font-weight: 500;
-
-  /* &:hover {
-    background: #0059c1;
-  } */
 `;
