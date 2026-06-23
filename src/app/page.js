@@ -11,7 +11,7 @@ export default function Home() {
       <main className={styles.main}>
        <App />
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
