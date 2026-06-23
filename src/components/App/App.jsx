@@ -17,9 +17,7 @@ function App() {
 export default App;
 
 const Wrapper = styled.div`
-  padding-left: 25%;
- 
-   width: 100%;
-  background: yellow;
+  /* padding-left: 25%; */
+  width: 100%;
   color: white;
 `
