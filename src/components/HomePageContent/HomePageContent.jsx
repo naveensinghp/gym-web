@@ -169,7 +169,7 @@ const Title = styled.h1`
 `;
 
 const Description = styled.p`
-  font-size: 1.125rem;
+  font-size: 2rem;
   line-height: 1.9;
   color: #666;
 `;
