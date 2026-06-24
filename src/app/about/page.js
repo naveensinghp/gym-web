@@ -121,7 +121,7 @@ const Title = styled.h1`
 `;
 
 const Subtitle = styled.p`
-  font-size: 1.25rem;
+  font-size: 2rem;
   line-height: 1.8;
   color: #555;
   max-width: 800px;
