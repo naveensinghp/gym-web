@@ -138,7 +138,7 @@ const SectionTitle = styled.h2`
 `;
 
 const Text = styled.p`
-  font-size: 1.1rem;
+  font-size: 2rem;
   line-height: 1.9;
   color: #555;
   margin-bottom: 20px;
