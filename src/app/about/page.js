@@ -8,7 +8,7 @@ export default function About() {
       <Hero>
         <Title>About TrackLift</Title>
         <Subtitle>
-          TrackLift is a workout tracking platform designed to help you stay
+          TrackLift is workout tracking platform designed to help you stay
           consistent, monitor progress, and make every workout count. Whether
           you're a beginner starting your fitness journey or an experienced
           athlete focused on performance, TrackLift provides the tools you need
