@@ -1,4 +1,4 @@
-## 🏋️ GYM Project
+## 🏋️ GYM TrackLift
 
 This is a personal side project where I'm designing and developing a modern GYM landing page.
 
