@@ -19,7 +19,7 @@ export default function WorkoutSplit() {
                 </LeftSection>
                 <RightSection>
                   <Rwrapper>
-                    Naveen
+                    Weekly Focus
                   </Rwrapper>
                 </RightSection>
             </Wrapper>
