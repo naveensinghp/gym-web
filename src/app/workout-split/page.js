@@ -13,7 +13,7 @@ export default function WorkoutSplit() {
             <Wrapper>
                 <LeftSection>
                     <TitleWrapper>
-                        <Title>Workout Split</Title>
+                        <Title>Workout Split </Title>
                         <SmallText>Follow a structured workout split to target each muscle group and achieve your fitness goals effectively.</SmallText>
                     </TitleWrapper>
                 </LeftSection>
